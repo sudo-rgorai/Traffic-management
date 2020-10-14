@@ -1,0 +1,22 @@
+{
+  "name": "traffic-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudo-rgorai/Traffic-management.git"
+  },
+  "author": "Rahul Gorai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudo-rgorai/Traffic-management/issues"
+  },
+  "homepage": "https://github.com/sudo-rgorai/Traffic-management#readme",
+  "dependencies": {
+    "particles.js": "^2.0.0"
+  }
+}
