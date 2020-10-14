@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sudo-rgorai/Traffic-management#readme",
   "dependencies": {
+    "bootstrap-icons": "^1.0.0",
     "particles.js": "^2.0.0"
   }
 }
