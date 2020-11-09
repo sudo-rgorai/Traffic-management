@@ -8,16 +8,17 @@ body {
 .heading {
     position: absolute;
     text-align: center;
-    top: 30%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
 
 }
 .heading h1 {
     color: limegreen;
-    font-size: 70px;
+    font-size: 100px;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 70%;
     font-family: 'Montserrat', sans-serif;
 }
 .heading h3 {
@@ -45,3 +46,9 @@ body {
     margin-top: 100px;
     color: limegreen;
 }
+
+@media (max-width: 600px) {  
+    .heading h1 {
+        font-size: 60px;
+    }
+  }
