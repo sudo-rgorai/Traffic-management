@@ -119,6 +119,114 @@
 			For viewing the Codebase,Click Here
 			For a very simple Demo of Traffic Light Timing Regulation - Click Here
 		</p>
+		<svg viewBox="0 0 16 16" class="bi bi-file-earmark-fill icon" fill="currentColor"
+			xmlns="http://www.w3.org/2000/svg">
+			<path fill-rule="evenodd"
+				d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0H4zm5.5 1.5v2a1 1 0 0 0 1 1h2l-3-3z" />
+		</svg>
+		<h2>Technical Report</h2>
+		<p>
+			The product “DHARUNA” seems to have great values in Autonomous Industry and Traffic Management.A brief
+			technical report is as follows:
+		</p>
+		<h3>TRAFFIC MANAGEMENT</h3>
+		<p>
+			Technically traffic flow has been divided into different classes “A to F” on the basis of comfort.When it
+			comes to Class D the measuring of vehicle gets highly complicated and slight human error results to the
+			collapse of traffic system.
+		</p>
+		<br>
+		<img src="assets/los.jpg" alt="" style="width: 70vw;">
+		<br>
+		<p>
+			In these stressful situations “Dharuna” stands as an aid to the driver.The app
+			uses the GPS location to get the current coordinates of a vehicle and predicts the future coordinates using
+			ML coded algorithm.When the Majority uses this app we have the current and future coordinates of traffic.
+			By knowing the future traffic flow the TRAFFIC LIGHTS can be manipulated accordingly to avoid congestions.
+			Consider a four phase signal system. After collecting the data from the transport department about the
+			length of the queue formed every time the signal turns red and the time required to empty the queue. Taking
+			the average of lengths as Lavg and taking the average of all the lengths that is less than Lavg as Lmin.
+			Also calculate the average time required to empty the queue T. Since average length of car is 4.5meters the
+			length of queue formed when N vehicles approaches the signal
+			<br><br>
+			L = 4.5N + min gap between two cars
+			<br><br>
+
+			Consider two cases:
+		<h4> CASE I: <math> L > L<sub>avg</sub> or L<sub>avg</sub>
+				< L < L<sub>min</sub>
+			</math> </h4>
+		<p>
+			Here we will set green time as average time i.e T. If L>Lavg all the vehicles within Lavg will cross
+			and rest will have to wait. For Lavg>L>Lmin the vehicles will cross in time less than T and will
+			allow extra vehicles to cross that will join during green time.
+		</p>
+		<h4> CASE II: L < L<sub>avg</sub> </h4>
+		<p>
+			Here we will set the green time according to the time required to empty the length.
+
+			Time required for L<sub>avg</sub> is T
+
+			So, Time requires for L is LTL<sub>avg</sub> = t
+
+			So we will set green time as t and after adding an amber time we can turn the light red. In
+			this way we will save time for others who are waiting for their signals to turn green.
+		</p>
+		<h4>AUTONOMOUS INDUSTRY</h4>
+		<p>
+			Autonomous industry has been limited to only certain fields but with Dharuna, the ML based algorithm,it
+			would enable the industry to predict the future trajectories. The vehicle embedded with this algorithm would
+			take decisions mainly in six categories shown below-
+
+			<br><br>
+			<img src="assets/algo.jpg" alt="" style="width: 70vw;">
+			<br><br>
+
+			According to NCRB data a total of 4,37,396 road accidents were recorded across India in 2019 out of which
+			92% were due to rash driving and overtaking. With these ML based autonomous vehicles human errors could be
+			minimized by knowing future trajectory and standards could be set using transportation engineering as shown
+			below.
+			Consider the scenario of a two lane or two way road where a vehicle wants to overtake another vehicle.
+
+			<br><br>
+			<img src="assets/overtake.png" alt="" style="width: 70vw;">
+			<br><br>
+
+			Now consider vehicle A wants to overtake vehicle B and vehicle C is travelling in the opposite direction.
+
+			Speed of overtaking vehicle = Va m/s
+			Speed of overtaken vehicle = Vb m/s
+			Speed of opposing vehicle = Vc m/s
+
+			The time between driver takes the decision and starts accelerating is considered as reaction time and for
+			that time interval the vehicle A moves with the same velocity as vehicle B and try to maintain the distance
+			with vehicle B and will travel distance d1
+
+			d1= Vb*t t = reaction time = 2.0sec
+
+			At point A2 driver starts accelerating and overtakes the vehicle B
+
+			d2=Vb*T+12*a*T2=b+2s T= Total time for required for
+			overtaking manoeuvre (sec)
+			Now b = Vb*T
+			a = maximum overtaking
+			acceleration (m/sec2)
+			So 2s=aT22 , T=4s/a s =minimum safe distance
+
+			s = 0.7(velocity of vehicle) + length of wheelbase
+
+			During the manoeuvre the vehicle C moved the distance d3 with constant velocity
+
+			d3=Vc*T
+
+			Now if we add d1, d2, d3 we will get the Safe Overtaking distance i.e if a vehicle overtakes the min
+			distance it will travel is Safe Overtaking distance.
+		</p>
+		<p>
+			Dharuna doesn't stop here as it gets the future trajectories it would prevent collisions making the journey
+			smooth and safe.It seems an efficient companion for the ever demanding autonomous sector.
+		</p>
+		</p>
 	</div>
 
 	<script src="/node_modules/particles.js/particles.js">
