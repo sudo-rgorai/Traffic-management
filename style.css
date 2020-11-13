@@ -67,6 +67,10 @@ body {
     color: limegreen;
 }
 
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
 #navbar {
     position: fixed;
     top: 0;
