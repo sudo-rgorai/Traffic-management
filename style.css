@@ -16,6 +16,14 @@ body {
       'Open Sans', 'Helvetica Neue', sans-serif;
       background-color: #212121;
 }
+
+.download-icon {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    color: limegreen;
+}
+
 .heading {
     position: absolute;
     text-align: center;
